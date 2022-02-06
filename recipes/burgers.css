@@ -1,0 +1,32 @@
+* {
+    width: 100%;
+    font-family: Georgia, Verdana, fantasy;
+}
+
+body {
+    background-image: url("https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5deffc29b4867f14c32aa3cc-402f116a.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pink {
+    color:darkgreen;
+}
+
+li {
+    padding: 3px;
+}
