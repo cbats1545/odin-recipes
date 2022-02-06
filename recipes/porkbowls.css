@@ -1,4 +1,37 @@
 body {
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, fantasy;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+strong {
+    color: yellow;
+}
+
+ul {
+    color: lightblue;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cont-items {
+    flex-flow: column;
 }
